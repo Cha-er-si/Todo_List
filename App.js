@@ -32,7 +32,7 @@ export default function App() {
     <View style={styles.container}>
       {/* Today's Task*/}
       <View style={styles.taskWrapper}>
-        <Text style={styles.sectionTitle}>Today's Tasks</Text>
+        <Text style={styles.sectionTitle}>TODAY'S TASK</Text>
         <View style={styles.items}>
           {/* This is where the task will gok*/}
           {taskItems.map((item, index) => {
@@ -69,14 +69,14 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#e8eaed',
+    backgroundColor: '#d9d9d9',
   },
   taskWrapper: {
     paddingTop: 80,
     paddingHorizontal: 20,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 25,
     fontWeight: 'bold',
   },
   items: {
@@ -107,5 +107,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
-  addText: {},
+  addText: {
+    fontWeight: 'bold',
+    fontSize: 25,
+  },
 });
