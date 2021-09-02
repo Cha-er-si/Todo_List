@@ -58,15 +58,15 @@ const styles = StyleSheet.create({
   },
   writeTaskWrapper: {
     position: 'absolute',
-    bottom: 60,
+    bottom: 25,
     width: '100%',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
   },
   input: {
-    paddingVertical: 15,
-    paddingHorizontal: 15,
+    paddingVertical: 20,
+    paddingHorizontal: 20,
     width: 250,
     backgroundColor: 'white',
     borderRadius: 60,
